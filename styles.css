@@ -14,6 +14,7 @@ h1{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: #f3ec78;
+    color: aqua;
 }
 
 p{
@@ -23,6 +24,7 @@ p{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: aqua;
+    color: #f3ec78
 };
 
 .firstPBox{
@@ -42,11 +44,14 @@ p{
     margin-bottom: 30px;
     width: 100%;
 }
-.inputBox{
+#inputBox{
     width:100%;
     height: 20px;
     background-color: gray;
     border-radius: 3em;
+    text-align: center;
+    font-size: 17px;
+    color: lawngreen;
 }
 
 button{
