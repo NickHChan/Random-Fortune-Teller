@@ -10,10 +10,19 @@ h1{
     font-size: 40px;
     display: flex;
     align-self: center;
+    background-image: linear-gradient(to right, red , orange, green, blue,purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #f3ec78;
 }
 
 p{
-    font-size: 20px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, purple 50%,blue,green,orange,red);
+    background-size:68%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: aqua;
 };
 
 .firstPBox{
@@ -38,4 +47,13 @@ p{
     height: 20px;
     background-color: gray;
     border-radius: 3em;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 1em;
+    font-size: 20px;
+    color:rgb(88, 224, 9);
+    
 }
